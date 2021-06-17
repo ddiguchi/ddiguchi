@@ -1,9 +1,9 @@
-package HelloWorld;
+package week;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 
-public class Main {
+public class Week {
 	public static void main(String[] args) {
 		LocalDate today = LocalDate.now();
 	    System.out.println("今日は"+today);
