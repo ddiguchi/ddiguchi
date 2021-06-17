@@ -1,8 +1,8 @@
-package HelloWorld;
+package true_false;
 
-public class Main {
+public class Random_TorF {
 	public static void main(String[] args) {
-        int number = (int)(Math.random() * 2 );
+		int number = (int)(Math.random() * 2 );
         if (number == 1) {
             System.out.println("引数が1なら真");
         } else if (number == 0) {
@@ -10,5 +10,5 @@ public class Main {
         } else {
         	System.out.println("miss");
         }
-    }
+	}
 }
